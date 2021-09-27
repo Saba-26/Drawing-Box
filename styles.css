@@ -16,6 +16,8 @@ body {
     overflow: hidden;
     background-color: #44b6b6;
     position: relative;
+    font-family: 'Pacifico', cursive;
+    color:#030000;
 }
 
 .menu {
@@ -26,7 +28,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-size:xx-large;
+    font-size:2.5rem;
     position: absolute;
     top: 0;
     left: 0;
@@ -37,22 +39,23 @@ body {
     display: none;
 }
 
-#start-button {
+#start{
     margin-top: 1rem;
     border: none;
     outline: none;
     cursor: pointer;
     padding: 5px 1rem;
-    color: white;
-    background-color:rgb(54, 199, 163);
+    background-color:#44b6b6;
     width:20%;
     height:8%;
     border-radius: 5%;
+    font-family: 'Pacifico', cursive;
+    font-size:1rem;
 }
 
 #start:hover {
     color: #272727;
-    background-color: #bd4f6c;
+    background-color:white;
 }
 
 .app-container {
